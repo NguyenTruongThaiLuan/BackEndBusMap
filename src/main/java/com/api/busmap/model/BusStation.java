@@ -3,72 +3,54 @@ package com.api.busmap.model;
 public class BusStation {
 	private int Id;
 	private String Name;
-	private String NumberX;
-	private String NumberY;
+	private String Latitude;
+	private String Longitude;
 	private String Address;
 	private String Street;
-	
-	public BusStation(int id, String name, String numberX, String numberY, String address, String street) {
+
+	public BusStation(int id, String name, String latitude, String longitude, String address, String street) {
 		Id = id;
 		Name = name;
-		NumberX = numberX;
-		NumberY = numberY;
+		Latitude = latitude;
+		Longitude = longitude;
 		Address = address;
 		Street = street;
 	}
-
-	public BusStation() {
-		Id = 0;
-		Name = "";
-		NumberX = "";
-		NumberY = "";
-		Address = "";
-		Street = "";
-	}
-
 	public int getId() {
 		return Id;
 	}
 	public void setId(int id) {
 		Id = id;
 	}
-
 	public String getName() {
 		return Name;
 	}
-
 	public void setName(String name) {
 		Name = name;
 	}
-
-	public String getNumberX() {
-		return NumberX;
+	public String getLatitude() {
+		return Latitude;
 	}
-
-	public void setNumberX(String numberX) {
-		NumberX = numberX;
+	public void setLatitude(String latitude) {
+		Latitude = latitude;
 	}
-	public String getNumberY() {
-		return NumberY;
+	public String getLongitude() {
+		return Longitude;
 	}
-
-	public void setNumberY(String numberY) {
-		NumberY = numberY;
+	public void setLongitude(String longitude) {
+		Longitude = longitude;
 	}
-
 	public String getAddress() {
 		return Address;
 	}
-
 	public void setAddress(String address) {
 		Address = address;
 	}
-
 	public String getStreet() {
 		return Street;
 	}
-
 	public void setStreet(String street) {
 		Street = street;
 	}
+	
 }

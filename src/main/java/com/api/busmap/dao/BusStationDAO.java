@@ -27,12 +27,12 @@ public class BusStationDAO implements BusStationIDAO{
 			while(rs.next()) {
 				int id = rs.getInt("Id");
 				String name = rs.getString("Name");
-				String numberX = rs.getString("numberX");
-				String numberY = rs.getString("numberY");
+				String Latitude = rs.getString("Latitude");
+				String Longitude = rs.getString("Longitude");
 				String address = rs.getString("address");
 				String street = rs.getString("street");
 				
-				BusStation busStation = new BusStation(id, name, numberX, numberY, address, street);
+				BusStation busStation = new BusStation(id, name, Latitude, Longitude, address, street);
 				list.add(busStation);
 			}
 		} catch (Exception e) {

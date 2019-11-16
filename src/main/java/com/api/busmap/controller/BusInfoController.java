@@ -1,5 +1,7 @@
 package com.api.busmap.controller;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -20,5 +22,10 @@ public class BusInfoController {
 	@GetMapping(value="/findById/{id}",produces = "application/json;charset=UTF-8")
 	public BusInfo findByID(@PathVariable("id") int id) {
 		return busInfoIDAO.getBusInfo(id);
+	}
+	
+	@GetMapping(value="/getBusInfoAll",produces = "application/json;charset=UTF-8")
+	public List<BusInfo> getAll() {
+		return busInfoIDAO.getAll();
 	}
 }
