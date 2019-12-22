@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [12/Dec/2019:00:02:01 +0700] "GET /businfo/findById/7 HTTP/1.1" 200 547 http-bio-8899-exec-3 36
+0:0:0:0:0:0:0:1 - - [12/Dec/2019:00:02:01 +0700] "GET /busstation/getBusStationByIdBus/7 HTTP/1.1" 200 1067 http-bio-8899-exec-5 36
+0:0:0:0:0:0:0:1 - - [12/Dec/2019:00:06:15 +0700] "GET /businfo/findById/7 HTTP/1.1" 200 547 http-bio-8899-exec-8 24
+0:0:0:0:0:0:0:1 - - [12/Dec/2019:00:06:15 +0700] "GET /busstation/getBusStationByIdBus/7 HTTP/1.1" 200 1067 http-bio-8899-exec-7 43
+0:0:0:0:0:0:0:1 - - [12/Dec/2019:00:18:52 +0700] "GET /businfo/findById/7 HTTP/1.1" 200 547 http-bio-8899-exec-9 21
+0:0:0:0:0:0:0:1 - - [12/Dec/2019:00:18:52 +0700] "GET /busstation/getBusStationByIdBus/7 HTTP/1.1" 200 1067 http-bio-8899-exec-10 17
+0:0:0:0:0:0:0:1 - - [12/Dec/2019:00:25:34 +0700] "GET /busstation/getBusStationByIdBus/7 HTTP/1.1" 200 1067 http-bio-8899-exec-3 25
+0:0:0:0:0:0:0:1 - - [12/Dec/2019:00:25:34 +0700] "GET /businfo/findById/7 HTTP/1.1" 200 547 http-bio-8899-exec-5 27

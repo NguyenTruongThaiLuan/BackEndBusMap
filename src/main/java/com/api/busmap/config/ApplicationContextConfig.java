@@ -16,7 +16,7 @@ public class ApplicationContextConfig {
 		try {
 			String connectionurl = "jdbc:mysql://localhost:3306/busmap?useUnicode=true&characterEncoding=utf-8";
         	Class.forName("com.mysql.jdbc.Driver");
-        	Connection con = DriverManager.getConnection(connectionurl,"root","");
+        	Connection con = DriverManager.getConnection(connectionurl,"pi","123");
         	return con;
 		}catch(Exception e) {
 			e.printStackTrace();

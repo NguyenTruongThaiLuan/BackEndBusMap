@@ -1,0 +1,7 @@
+0:0:0:0:0:0:0:1 - - [21/Dec/2019:19:44:23 +0700] "GET /BusMap/busstation/getBusStationByIdBus/24 HTTP/1.1" 200 9371 http-bio-8080-exec-2 759
+0:0:0:0:0:0:0:1 - - [21/Dec/2019:19:44:23 +0700] "GET /BusMap/businfo/findById/24 HTTP/1.1" 200 753 http-bio-8080-exec-1 759
+0:0:0:0:0:0:0:1 - - [21/Dec/2019:19:48:38 +0700] "GET /BusMap/businfo/findById/24 HTTP/1.1" 200 753 http-bio-8080-exec-5 23
+0:0:0:0:0:0:0:1 - - [21/Dec/2019:19:48:39 +0700] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-7 0
+0:0:0:0:0:0:0:1 - - [21/Dec/2019:19:49:21 +0700] "GET /BusMap/busstation/getBusStationByIdBus/24 HTTP/1.1" 200 9371 http-bio-8080-exec-9 23
+0:0:0:0:0:0:0:1 - - [21/Dec/2019:19:51:50 +0700] "GET /BusMap/businfo/findById/24 HTTP/1.1" 200 753 http-bio-8080-exec-2 21
+0:0:0:0:0:0:0:1 - - [21/Dec/2019:19:51:50 +0700] "GET /BusMap/busstation/getBusStationByIdBus/24 HTTP/1.1" 200 9371 http-bio-8080-exec-1 24
