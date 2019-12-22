@@ -23,4 +23,11 @@ public class BusStationController {
 	public List<BusStation> getBusStationByIdBus(@PathVariable("idBus") int idBus) {
 		return busStationIDAO.getBusStationByIdBus(idBus);
 	}
+	
+	
+	@GetMapping(value="/getBusStationByIdBus",produces = "application/json;charset=UTF-8")
+	public List<String> getBusStationByIdBus() {
+		return busStationIDAO.getAll();
+	}
+
 }

@@ -28,4 +28,9 @@ public class BusInfoController {
 	public List<BusInfo> getAll() {
 		return busInfoIDAO.getAll();
 	}
+	
+	@GetMapping(value="/getBusInfoCommon",produces = "application/json;charset=UTF-8")
+	public BusInfo findByID() {
+		return busInfoIDAO.getBusInfoCommon();
+	}
 }

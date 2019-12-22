@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th12 16, 2019 lúc 08:13 PM
+-- Thời gian đã tạo: Th12 22, 2019 lúc 07:49 AM
 -- Phiên bản máy phục vụ: 10.1.39-MariaDB
 -- Phiên bản PHP: 7.3.5
 
@@ -60,10 +60,11 @@ CREATE TABLE `businfo` (
 --
 
 INSERT INTO `businfo` (`Id`, `Name`, `Description`, `Amount`, `AmountForStudent`, `AdditionalInfo`, `Time`, `RouteLength`, `RunTime`, `TripDistance`, `NumberOfTrips`) VALUES
-(24, 'Bến Xe Miền Đông - Hóc Môn', 'Xe buýt số 24 (Hướng dẫn: Bãi Xe Buýt 19/5‎→Bến Xe Miền Đông) có 63 stops khởi hành từ Bãi Xe Buýt 19/5 và kết thúc tại Bến Xe Miền Đông. Tổng quan thời gian biểu xe buýt 24 cho tuần tới: Bắt đầu hoạt động lúc 04:00 và kết thúc vào lúc 19:45. Các ngày hoạt động trong tuần này: ngày thường.', 7000, 3000, '24 có 63 stops và tổng thời lượng chuyến đi trên tuyến đường này là khoảng 75 phút.', '04:00 - 20:30', '26.10 km', '75', '5 - 12 phút', '350 chuyến/ngày'),
+(24, 'Bến Xe Miền Đông - Hóc Môn', 'Xe buýt số 24 (Hướng dẫn: Bãi Xe Buýt 19/5‎→Bến Xe Miền Đông) có 63 stops khởi hành từ Bãi Xe Buýt 19/5 và kết thúc tại Bến Xe Miền Đông. Tổng quan thời gian biểu xe buýt 24 cho tuần tới: Bắt đầu hoạt động lúc 04:00 và kết thúc vào lúc 19:45. Các ngày hoạt động trong tuần này: ngày thường.', 7000, 3000, '24 có 63 stops và tổng thời lượng chuyến đi trên tuyến đường này là khoảng 75 phút.', '04:00 - 20:30', '26.10', '75', '5 - 12', '350'),
 (7, 'Bến xe Chợ Lớn - Gò vấp', 'Xe buýt số 07 (Hướng dẫn: Bãi Hậu Cần Số 1‎→Bến Xe Chợ Lớn) có 51 stops khởi hành từ Bãi Hậu Cần Số 1 và kết thúc tại Bến Xe Chợ Lớn.', 6000, 3000, 'Xe buýt số 07 có 51 stops và tổng thời lượng chuyến đi trên tuyến đường này là khoảng 68 phút.', '05:00 - 19:30', '15.85', '70', '15', '140'),
 (18, 'Bến Thành - Chợ Hiệp Thành', 'Xe buýt số 18 (Hướng dẫn: Hiệp Thành‎→Tđh Xe Buýt Sài Gòn) có 65 stops khởi hành từ Hiệp Thành và kết thúc tại Tđh Xe Buýt Sài Gòn.', 6000, 3000, 'Xe buýt số 18 có 65 stops và tổng thời lượng chuyến đi trên tuyến đường này là khoảng 75 phút.', '05:00 - 20:30', '22.73', '75', '7 - 15', '220'),
-(148, 'Bến xe Miền Tây - Gò Vấp', 'Xe buýt số 148 (Hướng dẫn: Bãi Hậu Cần Số 1‎→Bến Xe Miền Tây) có 52 stops khởi hành từ Bãi Hậu Cần Số 1 và kết thúc tại Bến Xe Miền Tây.', 6000, 3000, 'Xe buýt số 148 có 52 stops và tổng thời lượng chuyến đi trên tuyến đường này là khoảng 57 phút.', '05:00 - 18:45', '16.90', '57 - 62', '11 - 15', '140');
+(148, 'Bến xe Miền Tây - Gò Vấp', 'Xe buýt số 148 (Hướng dẫn: Bãi Hậu Cần Số 1‎→Bến Xe Miền Tây) có 52 stops khởi hành từ Bãi Hậu Cần Số 1 và kết thúc tại Bến Xe Miền Tây.', 6000, 3000, 'Xe buýt số 148 có 52 stops và tổng thời lượng chuyến đi trên tuyến đường này là khoảng 57 phút.', '05:00 - 18:45', '16.90', '57 - 62', '11 - 15', '140'),
+(0, 'Di chuyển đến các quận huyện nội và ngoại thành', 'Xe buýt số 7, 18, 24, 148 (Di chuyển đến các quận huyện nội và ngoại thành) có 173 stops. Tổng quan thời gian biểu xe buýt 7, 18, 24, 148 cho tuần tới: Bắt đầu hoạt động lúc 04:00 và kết thúc vào lúc 20:30. Các ngày hoạt động trong tuần này: ngày thường.', 7000, 3000, '7, 18, 24 & 148 có 173 stops và tổng thời lượng chuyến đi trên các tuyến đường là khoảng 56 - 75 phút.', '04:00 - 20:30', '26.10', '56 - 75', '5 - 12', '140 - 350');
 
 -- --------------------------------------------------------
 
